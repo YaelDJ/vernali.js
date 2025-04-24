@@ -1,0 +1,5 @@
+export { default as Autowired } from './Autowired'
+export { default as Register } from './Register'
+export { default as Repository } from './Repository'
+export { default as Service } from './Service'
+export { default as Static } from './Static'

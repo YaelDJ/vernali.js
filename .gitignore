@@ -1,0 +1,9 @@
+node_modules/
+*.tsbuildinfo
+.eslintcache
+*.tgz
+.env
+.cache
+dist/
+.vscode/
+.idea/

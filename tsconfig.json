@@ -1,0 +1,43 @@
+ {
+  "compilerOptions": {
+    "target": "ES2023",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "CommonJS",
+    "rootDir": "src",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@framework/*": ["./src/*"],
+      "@framework-core/*": ["./src/core/*"],
+      "@framework-common/*": ["./src/common/*"],
+      "@framework-config/*": ["./src/config/*"],
+      "@framework-types/*": ["./src/types/*"],
+      "@framework-decorators/*": ["./src/decorators/*"],
+      "@framework-lib/*": ["./src/lib/*"]
+    },
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ],
+    "allowJs": true,
+    "outDir": "./dist",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "useUnknownInCatchVariables": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "skipLibCheck": false,
+    "declaration": true,
+    "declarationMap": true
+  },
+  "exclude": ["node_modules", "dist", "**/*.mjs", "**/*.json"]
+}
